@@ -11,6 +11,10 @@
 使用Deno/Cloudflare Worker无服务器免费部署。
 
 
+## Vercel部署
+
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tech-shrimp/grok-playground)
+
 ## Cloudflare Worker 部署
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/tech-shrimp/grok-playground)

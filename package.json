@@ -8,6 +8,9 @@
     "start": "wrangler dev",
     "test": "vitest"
   },
+  "dependencies": {
+    "@vercel/node": "^3.0.0"
+  },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.5.2",
     "wrangler": "^3.60.3",

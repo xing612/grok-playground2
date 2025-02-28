@@ -8,6 +8,7 @@
     "packageJson": {
       "dependencies": [
         "npm:@cloudflare/vitest-pool-workers@~0.5.2",
+        "npm:@vercel/node@3",
         "npm:vitest@2.1.8",
         "npm:wrangler@^3.60.3"
       ]
