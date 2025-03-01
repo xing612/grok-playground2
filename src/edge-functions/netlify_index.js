@@ -1,4 +1,4 @@
-  import { handleGrokRequest } from "../../src/handle_grok.js";
+  import { handleGrokRequest } from "../handle_grok.js";
 
   export default async(req, context) => {
     const url = new URL(req.url);
