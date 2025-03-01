@@ -50,6 +50,17 @@ export async function handleGrokRequest (req) {
     headers.delete('X-Forwarded-For');
     headers.delete('X-Real-IP');
     headers.delete('True-Client-IP');
+    headers.delete('x-vercel-deployment-url');
+    headers.delete('x-vercel-forwarded-for');
+    headers.delete('x-forwarded-host');
+    headers.delete('x-forwarded-port');
+    headers.delete('x-forwarded-proto');
+    headers.delete('x-vercel-id');
+    headers.delete('origin');
+    headers.delete('baggage');
+
+
+    console.log('Request Headers:', headers);
 
     try {
         const fetchResponse = await fetch(targetFullUrl.toString(), {

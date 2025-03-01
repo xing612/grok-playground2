@@ -1,0 +1,5 @@
+[build]
+  publish = "src"
+  edge_functions = "netlify/edge-functions"
+[dev]
+  publish = "src"

@@ -174,3 +174,6 @@ dist
 deno.lock
 
 .vercel
+
+# Local Netlify folder
+.netlify
